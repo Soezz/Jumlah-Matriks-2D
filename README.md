@@ -8,5 +8,4 @@ int x,y,a[3][4],b[3][4];
 
 for (x=0;x<=2;x++){
         for (y=0;y<=3;y++){
-        
-untuk file matriks bebas saya lupa kasih format cpp nanti tambahkan sendiri ya heheh
+
