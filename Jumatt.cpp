@@ -6,7 +6,7 @@ int main(){
  //saya membuat penjumlahan
  //matriks 2x2 ygy
  int x,y,m[2][2],n[2][2];
- //angka 2 bisa kamu ganti
+ //angka 2 bisa kamu ganti tergantung dimensi berp
  
  //head
  cout << "#Penjumlahan Matrix#" << endl;
@@ -18,7 +18,8 @@ int main(){
   for(y=0; y<=1; y++){
    cout << "Input angka Baris"<<x<<"kolom"<<y<<"= ";
    cin>>m[x][y]; //menyimpan data inputan
-  };
+  };//semua angka 1 bisa kamu ganti tergantung matriks berapa
+  //misal 3x4 maka x<=1 kamu ganti<=3 y juga diganti menjadi 4
  };
  cout<<endl<< "#Matrix2#" << endl;
  for (x=0; x<=1; x++){
